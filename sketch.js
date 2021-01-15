@@ -155,7 +155,7 @@ function draw() {
         }
 
         if (coinsGroup.isTouching(mario)) {
-            coinGroup.destroyEach();
+            coinsGroup.destroyEach();
             coins = coins + 1
         }
 
